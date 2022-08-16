@@ -1,18 +1,20 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
+import Home from "./components/Home";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Courses from "./components/Courses";
+import AllCourses from "./components/AllCourses";
+import AddCourse from "./components/AddCourse";
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <h1>This is React App</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-        provident reiciendis molestiae architecto doloremque, explicabo ullam
-        pariatur quis sed eos? Laudantium voluptate magnam, labore pariatur rem
-        officiis velit ducimus perspiciatis.
-      </p>
+    <div >
+      
+      
+      <Home/>
+      <AllCourses/>
+      <AddCourse/>
     </div>
   );
 }
